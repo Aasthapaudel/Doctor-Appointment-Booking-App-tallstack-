@@ -36,6 +36,9 @@
 
             </div>
             <livewire:teamsection/>
+            <livewire:specialist-card/>
+            <livewire:feature-article/>
+
         </div>
     </main>
 

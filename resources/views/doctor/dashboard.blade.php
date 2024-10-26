@@ -10,6 +10,7 @@
 
 <livewire:Hero-section/>
 <livewire:teamsection/>
+<livewire:feature-article/>
 
 <livewire:Footersection/>
   <!-- End Hero -->
