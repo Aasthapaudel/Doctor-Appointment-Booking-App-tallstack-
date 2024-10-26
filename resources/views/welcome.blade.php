@@ -16,7 +16,7 @@
 </head>
 
 <body class="antialiased font-sans">
-    <livewire:top-bar-navigation/>
+    <livewire:top-bar-navigation />
     {{-- <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
         <div
             class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
@@ -28,17 +28,21 @@
                         @endif
                 </header> --}}
 
-                <main id="content">
-                    <div class="py-12">
-<livewire:hero-section/>
-                    </div>
-            </main>
-        </div>
-    </div>
-            <footer class="py-3 text-center text-sm text-black dark:text-white/70">
-                <livewire:Footersection/>
+    <main id="content">
 
-            </footer>
+        <div class="py-12">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <livewire:hero-section />
+
+            </div>
+            <livewire:teamsection/>
+        </div>
+    </main>
+
+    <footer class="py-3 text-center text-sm text-black dark:text-white/70">
+        <livewire:Footersection />
+
+    </footer>
 
 </body>
 

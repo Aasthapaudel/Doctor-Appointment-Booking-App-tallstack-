@@ -9,6 +9,8 @@
 
 
 <livewire:Hero-section/>
+<livewire:teamsection/>
+
 <livewire:Footersection/>
   <!-- End Hero -->
 </x-app-layout>
