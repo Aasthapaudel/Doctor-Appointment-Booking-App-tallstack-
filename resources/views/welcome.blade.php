@@ -28,17 +28,18 @@
                         @endif
                 </header> --}}
 
-                <main class="mt-6">
-                    <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
-
+                <main id="content">
+                    <div class="py-12">
+<livewire:hero-section/>
                     </div>
             </main>
-
-            <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-            </footer>
         </div>
     </div>
-    </div>
+            <footer class="py-3 text-center text-sm text-black dark:text-white/70">
+                <livewire:Footersection/>
+
+            </footer>
+
 </body>
 
 </html>
