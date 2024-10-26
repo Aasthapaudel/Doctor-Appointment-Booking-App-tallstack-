@@ -16,6 +16,7 @@ Route::view('profile', 'profile')
     ->name('profile');
  Route::get('/doctor/dashboard',[DoctorController::class,'docdas'])->name('docdas')->middleware('auth','web','doctor');
  Route::get('/admin/dashboard',[AdminController::class,'admindas'])->name('admindas')->middleware('auth','web','admin');
-//  Route::get('/admin/dashboard/doctor',[AdminController::class,'doclist'])->name('doctorlist')->middleware('auth','web','admin');
+ Route::get('/admin/dashboard/doctor',[AdminController::class,'doclist'])->name('doctor.list')->middleware('auth','web','admin');
+ Route::get('/dashboard/appointdoctor',[AdminController::class,'docappoint'])->name('doctor.appoint')->middleware('auth','web','admin');
  Route::get('/patient/dashboard',[PatientController::class,'patdas'])->name('patdas')->middleware('auth','web','patient');
 require __DIR__.'/auth.php';

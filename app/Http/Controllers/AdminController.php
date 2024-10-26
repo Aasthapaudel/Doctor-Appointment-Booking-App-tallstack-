@@ -14,5 +14,8 @@ class AdminController extends Controller
     public function doclist(){
         return view('livewire.doctor-list');
     }
+    public function docappoint(){
+        return view('livewire.appointment-list');
+    }
 
 }
